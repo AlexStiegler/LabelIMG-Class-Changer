@@ -15,6 +15,7 @@
 Start of:
 Setting up full path to directory with labelled images
 """
+import sys
 
 # Full or absolute path to the folder with images
 # Find it with Py file getting-full-path.py
@@ -22,7 +23,7 @@ Setting up full path to directory with labelled images
 # r'C:\Users\my_name\Downloads\video-to-annotate'
 # or:
 # 'C:\\Users\\my_name\\Downloads\\video-to-annotate'
-full_path_to_images = 'D:\ProjektBoinski\Training\FinalTrainingSetv2'
+full_path_to_images = sys.argv[1]
 
 """
 End of:
